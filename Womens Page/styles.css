@@ -1,0 +1,302 @@
+#header{
+    width:90%;
+    margin: auto;
+    margin-top:-8px;
+}
+#header>div{
+    display: flex;
+    justify-content: flex-end;
+    border:1px solid red;
+}
+
+#header a{
+    /* border: 3px solid green; */
+    text-decoration: none;
+    color:grey;
+    border-width: 10px;
+    padding: 10px;
+    font-size: 12px;
+    vertical-align: baseline;
+}
+
+#header button{
+    
+    border: none;
+    background-color: white;
+}
+#header img{
+    width:20%;
+}
+
+#parent{
+    /* width:90%; */
+    background-color: #2d2d2d;
+    /* display: flex; */
+    
+    
+    
+   
+}
+
+#parent>div{
+    display: flex;
+    justify-content: space-around;
+    padding:20px
+}
+
+
+
+#nav2{
+   
+    margin: auto;
+    background-color: grey;
+}
+
+#nav2>div{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    
+    /* justify-content: space-evenly; */
+}
+#nav2>div>button{
+
+    padding-right: 10px;
+    
+   
+}
+
+#sale{
+    display: flex;
+    margin: auto;
+    border:3px solid green;
+}
+
+#sale>.yellow{
+    border:3px solid green;
+    width:90%;
+    background-color: yellow;
+ 
+}
+
+.yellow>h5{
+    text-align:end;
+    
+}
+
+#sale>.black{
+    width:90%;
+    background-color: black;
+    color: white;
+}
+
+
+
+#content>div>a>img{
+    width:100%;
+    height:250px;
+}
+
+#images{
+    display:flex;
+    width:90%;
+    margin: auto;
+    margin-top:40px;
+    margin-bottom: 40px;
+    
+}
+#images>div{
+    padding-right: 20px;
+    text-align: center;
+    
+}
+#images img{
+    width:100%;
+}
+
+#images .para{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    
+}
+
+#images>div>a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#links{
+    display:flex;
+    width:80%;
+    margin: auto;
+
+}
+
+#links div{
+    text-align: center;
+    text-decoration: none;
+}
+
+#links div>a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    
+}
+
+#links p{
+    color: #2d2d2d;
+    font-size: 18px;
+}
+
+#links button{
+    padding: 20px 50px 20px 50px;
+    font-weight: bold;
+    border-inline-color: black;
+}
+
+#links button:hover{
+    background-color: black;
+    color:white;
+    cursor: pointer;
+}
+
+
+#head{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+#links img{
+    width:90%;
+    
+}
+
+#brands{
+    display: flex;
+    margin: auto;
+    width:90%;
+    
+}
+
+#brands>a{
+    width:16.66%;
+    
+}
+
+#brands>a>img{
+    width: 100%;
+}
+
+
+
+#big{
+    width:80%;
+    margin:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+#big img{
+    width:100%;
+}
+#websites{
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#websites>div:nth-child(1){
+    display: flex;
+    width:50%;
+    justify-content:flex-end;
+    padding: 15px;
+
+}
+
+#websites>div:nth-child(2){
+    display: flex;
+    width:50%;
+    justify-content:flex-start;
+    padding: 15px;
+
+}
+
+#websites img{
+    width:5%;
+    padding-left: 30px;
+}
+
+#websites a{
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+#websites a:hover{
+    border:1px solid red;
+    border-color: black;
+    border-radius: 50%;
+}
+
+#footer{
+    display: flex;
+    margin-bottom:10px;
+    justify-content: space-around;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color:#eee;
+    padding: 20px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+#footer>div{
+    display: grid;
+}
+
+#footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    color: #2d2d2d;
+}
+
+#footer a:hover{
+    color: blue; 
+}
+#footer img{
+    width:8%;
+}
+
+#footer .img{
+    margin-top: -50px;
+}
+
+#foot a:hover{
+   
+   color: blue; 
+}
+
+#foot{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+
+}
+
+#foot>div{
+    display: flex;
+    font-size: 12px;
+    color: #2d2d2d;
+    padding-left: 40px;
+}
+
+#foot a{
+    padding-right: 30px;
+    font-size: 12px;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #2d2d2d;
+}
