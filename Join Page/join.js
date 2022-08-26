@@ -20,10 +20,36 @@ button.addEventListener("click",function(event){
     }
     if(dataObj.email=="" || dataObj.first=="" || dataObj.last=="" || dataObj.pass=="" || dataObj.date=="" || dataObj.month=="" || dataObj.year=="" || dataObj.women=="" ||dataObj.men=="" ){
         alert("Please fill all Details first")
+    }else if(dataObj.pass.length<=9){
+        alert("Password length must be 10 or more characters");
+    }else if(checkEmail(dataObj.email)){
+        alert("Email is already registered");
     }
     else{
         dataArr.push(dataObj);
         localStorage.setItem("details",JSON.stringify(dataArr));
+        window.location.href="http://127.0.0.1:5500/macabre-carriage-2497/Signin%20Page/signin.html?"
+    }
+
+    function checkEmail(email){
+        // let flag=false;
+        let count=0;
+        let dataArr=JSON.parse(localStorage.getItem("details"))||[];
+        // console.log(dataArr)
+        dataArr.map(function(el){
+            if(el.email===email){
+                count++;
+            }
+        })
+        if(count>=1){
+            // console.log(count)
+            return true;
+        }else{
+            return false;
+        }
     }
     
 })
+
+
+
