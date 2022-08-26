@@ -6,17 +6,14 @@
 #header>div{
     display: flex;
     justify-content: flex-end;
-    border:1px solid red;
+    /* border:1px solid red; */
 }
 
 #header a{
-    /* border: 3px solid green; */
     text-decoration: none;
-    color:grey;
-    border-width: 10px;
+    color:#666;
     padding: 10px;
     font-size: 12px;
-    vertical-align: baseline;
 }
 
 #header button{
@@ -29,41 +26,85 @@
 }
 
 #parent{
-    /* width:90%; */
     background-color: #2d2d2d;
-    /* display: flex; */
-    
-    
-    
-   
 }
 
-#parent>div{
-    display: flex;
-    justify-content: space-around;
-    padding:20px
+#parent>#nav1{
+    display:flex;
+    border:3px solid red;
 }
 
+#parent>div>div{
+    margin-right:2%;
+}
 
+#parent>div>div:nth-child(1){
+    width:25%;
+    margin-left:0px;
+    border:3px solid green;
+
+}
+
+#parent>div>div:nth-child(2){
+    width:60%;
+    border:3px solid green;
+}
+
+#parent>div>div:nth-child(3){
+    width:10%;
+    border:3px solid green;
+    margin-right:0px;
+}
+
+#parent>div>div>.anchor{
+    width:30%;
+}
+
+#in{
+    width: 100%;
+    padding: 15px 0px 15px 0px;
+    border-radius: 20px;
+}
 
 #nav2{
-   
     margin: auto;
-    background-color: grey;
+    background-color: #666;;
 }
 
 #nav2>div{
     display: flex;
     width: 90%;
     margin: auto;
-    
-    /* justify-content: space-evenly; */
 }
 #nav2>div>button{
 
-    padding-right: 10px;
-    
+    height:50px;
+    background-color: #666;
+    border:none;
+    color:#eee;
+    margin-right:10px;
    
+}
+
+#nav2>div>button:hover{
+    cursor: pointer;
+    background-color: #eee;
+    color: #000000;
+}
+#nav2>div>#sales{
+    background-color: #d01345;
+    font-weight: 800;
+    transform: skew(-12deg);
+    padding-right: 10px;
+    margin-right:10px;
+}
+
+#nav2>div>#outlets{
+    background-color: #d01345;
+    font-weight: 800;
+    transform: skew(-12deg);
+    padding-right: 10px;
+    margin-right:10px;
 }
 
 #sale{
@@ -90,11 +131,55 @@
     color: white;
 }
 
-
-
-#content>div>a>img{
+#content>div>a>.parent{
+    position: relative;
     width:100%;
-    height:250px;
+}
+
+#content>div>a>.child{
+    position: absolute;
+    top: 40%;
+    left: 42%;
+}
+
+#content>div>a>.heading{
+    position: absolute;
+    top: 45%;
+    font-size: 2rem;
+    left: 35%;
+    color:#000000;
+    text-align: center;
+}
+
+#content>div>a>.para1{
+    position: absolute;
+    top: 62%;
+    left: 44%;
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+#content>div>a>.para2{
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    color: #000000;
+    font-size: 14px;
+}
+
+#big{
+    padding-left: 35px;
+    margin-top: 40px;
+}
+
+#big>a{
+    margin:auto;
+}
+
+#big>a+img{
+    
+    width:100%;
 }
 
 #images{
@@ -169,7 +254,6 @@
     margin-top: 50px;
 }
 
-
 #links img{
     width:90%;
     
@@ -192,17 +276,6 @@
 }
 
 
-
-#big{
-    width:80%;
-    margin:auto;
-    margin-top:20px;
-    margin-bottom:20px;
-}
-
-#big img{
-    width:100%;
-}
 #websites{
     display: flex;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -212,8 +285,9 @@
     display: flex;
     width:50%;
     justify-content:flex-end;
-    padding: 15px;
-
+    margin-top:15px;
+    margin-bottom:15px;
+    border-right:1px solid #666;
 }
 
 #websites>div:nth-child(2){
@@ -230,14 +304,28 @@
 }
 
 #websites a{
-    padding-left: 30px;
-    padding-right: 30px;
-
+    margin-right: 50px;
+    /* border-radius: 50%; */
+    padding: 5px;
+    
+}
+#websites>#web>:nth-last-child(1){
+    background-color: yellow;
+    color:black;
 }
 
-#websites a:hover{
-    border:1px solid red;
-    border-color: black;
+#websites>#web>:nth-last-child(2){
+    background-color:purple;
+    color:white;
+}
+
+#websites>#web>:nth-last-child(3){
+    background-color: blue;
+    color:white;
+}
+
+#websites>#web a:hover{
+    border:2px solid blue;
     border-radius: 50%;
 }
 
