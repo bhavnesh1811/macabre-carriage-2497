@@ -18,7 +18,7 @@ button.addEventListener("click",function(event){
         men:form.men.value
 
     }
-    if(dataObj.email=="" || dataObj.first=="" || dataObj.last=="" || dataObj.pass=="" || dataObj.date=="" || dataObj.month=="" || dataObj.year=="" || dataObj.women=="" ||dataObj.men=="" ){
+    if(dataObj.email=="" || dataObj.first=="" || dataObj.last=="" || dataObj.pass=="" || dataObj.date==0 || dataObj.month==0 || dataObj.year==0){
         alert("Please fill all Details first")
     }else if(dataObj.pass.length<=9){
         alert("Password length must be 10 or more characters");
