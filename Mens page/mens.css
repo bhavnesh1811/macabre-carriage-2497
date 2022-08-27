@@ -28,11 +28,9 @@ body{
     border-left:1px solid #666;
     margin-right:50px;
 }
-
 #header img{
     width:50%;
 }
-
 #header img:hover{
     cursor:pointer;
     border:3px solid blue;
@@ -48,16 +46,6 @@ body{
     margin-right:2%; 
 }
 
-#parent>div:nth-child(1){
-    width: 25%;
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: space-evenly;
-    
-}
-
 #parent>div>a~a:hover{
     cursor:pointer;
     background-color: #666;
@@ -67,6 +55,16 @@ body{
     cursor:pointer;
     background-color: #666;
     border:none;
+}
+
+#parent>div:nth-child(1){
+    width: 25%;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-evenly;
+    
 }
 
 #nav1>a>img{
@@ -83,14 +81,8 @@ body{
 }
 
 #parent>div:nth-child(2){
-    width:55%;
+    width:60%;
     margin-top:8px;
-}
-
-#search{
-    width: 100%;
-    padding: 15px 0px 15px 0px;
-    border-radius: 20px;
 }
 
 #parent>#cart:nth-child(3){
@@ -111,6 +103,12 @@ body{
     width:100%;
     color:#eee;
     padding-left: 15px;
+}
+
+#search{
+    width: 100%;
+    padding: 15px 0px 15px 0px;
+    border-radius: 20px;
 }
 
 #nav2{
@@ -162,7 +160,6 @@ body{
 }
 
 #sale>.yellow{
-    /* border:3px solid blue; */
     width:100%;
     background-color: yellow;
     text-align:center;
@@ -256,11 +253,13 @@ body{
     margin-bottom: 40px;
     
 }
+
 #images>div{
     padding-right: 20px;
     text-align: center;
     
 }
+
 #images img{
     width:100%;
 }
@@ -363,16 +362,17 @@ body{
     display: flex;
     margin: auto;
     width:90%;
-    
 }
 
 #brands>a{
-    width:16.66%;  
+    width:16.66%;
+    
 }
 
 #brands>a>img{
     width: 100%;
 }
+
 
 #websites{
     display: flex;
@@ -403,7 +403,9 @@ body{
 
 #websites a{
     margin-right: 50px;
+    /* border-radius: 50%; */
     padding: 5px;
+    
 }
 #websites>#web>:nth-last-child(1){
     background-color: yellow;
@@ -427,7 +429,6 @@ body{
 
 #footer{
     display: flex;
-    /* margin-bottom:10px; */
     justify-content: space-around;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     background-color:#eee;

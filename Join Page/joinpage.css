@@ -1,20 +1,15 @@
 body{
-    
     margin-top: 70px;
-    /* margin-bottom: 50px; */
     background-color: #eeeeee;
 }
 
 #header{
-   
     text-align: center;
     margin-top: 60px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
     color:#222;
-   
-    
 }
 
 #top{
@@ -24,8 +19,6 @@ body{
     padding: 30px;
     font-weight: bold;
     border-bottom:1px solid rgba(27, 27, 29, 0.322);
-    
-
 }
 
 #top>.join{
@@ -81,6 +74,7 @@ body{
 .para{
     text-align: center;
     line-height: 1.5em;
+    font-weight: 400;
     
 }
 
@@ -186,7 +180,16 @@ body{
 
 #submit:hover{
     cursor: pointer;
-    
+    background-color: #222;
+}
+
+#already{
+    text-align:center;
+    letter-spacing:1px;
+}
+#already a{
+    text-decoration:underline ;
+    margin-left:10px;
 }
 
 #footer{
